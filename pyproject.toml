@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "go-it-web-hw4"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "go_it_web_hw4"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
